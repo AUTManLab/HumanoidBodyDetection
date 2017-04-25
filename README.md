@@ -4,7 +4,8 @@ Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off
 This is the code for the paper
 
 Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off
-Mohammad Javadi*, Sina Mokhtarzadeh*, Sajad Azami*, Soroush Sadeghnejad, 
+Mohammad Javadi*, Sina Mokhtarzadeh*, Sajad Azami*, Soroush Sadeghnejad
+
 (* equal contribution) 
 Submitted to RoboCup 2017 Symposium, Nagoya, Japan
 
