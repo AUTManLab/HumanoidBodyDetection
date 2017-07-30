@@ -65,7 +65,17 @@ A simple cropping tool is written in QT for creating this data-set, which made t
 Using ImageCropper
 ----------
 
-blah
+We prepared an image-cropper using OpenCV and Qt library to crop collected images to create our desired croped image for dataset. To use it, first change your directory to "/path/to/HumanoidBodyDetection/imageCropper". There is an executable file named "ImageCropper" in this directory. You should copy the "ImageCropper" along side folder named "images" which contains image's(positives and negatives) you want to crop. To use "ImageCropper" first run it with the command:
+```
+./ImageCropper
+```
+Then you can see a gui pannel named "result". To crop an image, first do left mouse click on the most top left point of your desired boundary, and do it same for most down right point of desired boundary, with pressing 'c' arrowkey, desired boundary will be saved into "/path/to/HumanoidBodyDetection/imageCropper/croped" directory.
+Also you can exit from the ImageCropper with 'q' arrowkey. Don't worry, all the changes will be saved, and next time that you want to run the ImageCropper, it continues from the last croped image to the end of the "images" directory.
+The simple ImageCropper source code is available for editting and promotting, to get new executable file from the source code, you should run the command:
+```
+cd /path/to/HumanoidBodyDetection/imageCropper
+qmake ImageCropper.pro
+```
 
 Training Your Model
 ----------
