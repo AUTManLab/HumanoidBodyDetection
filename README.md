@@ -51,7 +51,7 @@ We have published 1500 images from 3 platforms: AKBAR, KIARASH and DARWIN, 500 o
 
 Sample images of this data set:
 
-<img src="./img/robots.jpg" alt="Drawing" style="width: 400px;"/>
+<img src="./img/robots.jpg" alt="Drawing" style="width: 200px;"/>
 
 
 As mentioned in the paper, The problem of recognizing other robot bodies is a critical capability that has not garnered much attention in the Robotics community so far. Since there is no centralized data set for Robot Bodies, we encourage you to add your Robot Body Image data-set link to this repository(just add your link to list below and create a pull request).
