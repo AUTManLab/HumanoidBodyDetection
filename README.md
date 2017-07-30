@@ -6,8 +6,8 @@ This repository contains:
  * ImageCropper for Creating Similar Data-Set
  * Python Scripts for Training Deep Networks Using Caffe
 
-"Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"
-[Mohammad Javadi](https://github.com/mohammadjv6), [Sina Mokhtarzadeh](https://github.com/sinaazar), [Sajad Azami](https://sajadazami.github.io), Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
+"Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"<br/>
+[Mohammad Javadi](https://github.com/mohammadjv6), [Sina Mokhtarzadeh](https://github.com/sinaazar), [Sajad Azami](https://sajadazami.github.io),<br /> Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
 
 Submitted to [RoboCup 2017 Symposium, Nagoya, Japan](https://www.robocup2017.org/eng/symposium.html)
 
@@ -48,6 +48,11 @@ Using Our Data-Set, Adding Your Own
 We have published 1500 images from 3 platforms: AKBAR, KIARASH and DARWIN, 500 of each. You can download these images using link below:
 
 [AUT_HUMANOID_BODY](http://ceit.aut.ac.ir/~azami/robot_body_dataset/AUT_HUMANOID_BODY.zip)
+
+Sample images of this data set:
+
+<img src="./img/robots.jpg" alt="Drawing" style="width: 400px;"/>
+
 
 As mentioned in the paper, The problem of recognizing other robot bodies is a critical capability that has not garnered much attention in the Robotics community so far. Since there is no centralized data set for Robot Bodies, we encourage you to add your Robot Body Image data-set link to this repository(just add your link to list below and create a pull request).
 
