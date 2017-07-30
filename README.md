@@ -1,13 +1,15 @@
 Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off
 ===================
 
-This is the code for the paper
+This repository contains:
+ * Robot Body Data-Set
+ * ImageCropper for Creating Simmilar Data-Set
+ * Python Scripts for Training Deep Networks Using Caffe
 
 Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off
-Mohammad Javadi*, Sina Mokhtarzadeh*, Sajad Azami*, Soroush Sadeghnejad
+[Mohammad Javadi](https://github.com/mohammadjv6), [Sina Mokhtarzadeh](https://github.com/sinaazar), [Sajad Azami](sajjadaaza), Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
 
-(* equal contribution) 
-Submitted to RoboCup 2017 Symposium, Nagoya, Japan
+Submitted to [RoboCup 2017 Symposium, Nagoya, Japan](https://www.robocup2017.org/eng/symposium.html)
 
 ----------
 Abstract
@@ -29,12 +31,32 @@ These models, trained on a limited set of robots, are able to successfully
 distinguish an unseen kind of humanoid robot from non-robot regions.
 
 ----------
-Tutorial
+How to Use This Code in Your Project?
+----------
+blah
+
+
+Using Our Data-Set, Adding Your Own
 ----------
 
-### ToDos:
+blah
 
-- [ ] Push Dataset
-- [ ] Push Networks
-- [ ] Push Code Example
-- [ ] Link to Paper
+Training Your Model
+----------
+
+blah
+
+Using ImageCropper
+----------
+
+blah
+
+
+Reference to This Paper
+----------
+- Bibtex Here
+
+Lisence
+----------
+Apache License, Version 2.0 (the "License");
+
