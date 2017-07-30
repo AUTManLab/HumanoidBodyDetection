@@ -3,19 +3,18 @@ Humanoid Robot Detection Using Deep Learning: A Speed-Accuracy Trade-off
 
 This repository contains:
  * Robot Body Data-Set
- * ImageCropper for Creating Simmilar Data-Set
+ * ImageCropper for Creating Similar Data-Set
  * Python Scripts for Training Deep Networks Using Caffe
 
 "Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"
-[Mohammad Javadi](https://github.com/mohammadjv6), [Sina Mokhtarzadeh](https://github.com/sinaazar), [Sajad Azami](sajjadaaza), Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
+[Mohammad Javadi](https://github.com/mohammadjv6), [Sina Mokhtarzadeh](https://github.com/sinaazar), [Sajad Azami](https://sajadazami.github.io), Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
 
 Submitted to [RoboCup 2017 Symposium, Nagoya, Japan](https://www.robocup2017.org/eng/symposium.html)
 
 Abstract
 ----------
 Recent advances in computer vision have made the detection
-of landmarks on the soccer field easier for teams. However, the detec-
-tion of other robots is also a critical capability that has not garnered
+of landmarks on the soccer field easier for teams. However, the detection of other robots is also a critical capability that has not garnered
 much attention in the RoboCup community so far. This problem is well
 represented in different RoboCup Soccer and Rescue Robot Leagues.
 In this paper, we compare several two-stage detection systems based
@@ -24,16 +23,24 @@ speed-accuracy trade off. The approach performs edge based image seg-
 mentation in order to reduce the search space and then a CNN validates
 the detection in the second stage. We use images of different humanoid
 robots to train and test three different CNN architectures. A part of
-these images were gathered by our team and will be publicly available.
-Our experiments demonstrate the strong adaptability of deeper CNNs.
+these images was gathered by our team and will be publicly available.
+Our experiments demonstrate the strong adaptability of deeper CNN's.
 These models, trained on a limited set of robots, are able to successfully
 distinguish an unseen kind of humanoid robot from non-robot regions.
 
 ----------
 How to Use This Code in Your Project?
 ----------
-blah
+As explained in the paper, three Networks, namely SqueezeNet, LeNet and GoogLeNet are used and each has its own application, depending on how much computational power is available.
 
+First, clone this repository.
+```
+git clone https://github.com/AUTManLab/HumanoidBodyDetection.git
+```
+
+Second, prepare your data-set. You can download our data-set as explained in the section below or use your own images or any other combination.
+
+Third, use one of three Networks to train your model. Evaluation tools will be added soon.
 
 Using Our Data-Set, Adding Your Own
 ----------
@@ -42,28 +49,30 @@ We have published 1500 images from 3 platforms: AKBAR, KIARASH and DARWIN, 500 o
 
 [AUT_HUMANOID_BODY](http://ceit.aut.ac.ir/~azami/robot_body_dataset/AUT_HUMANOID_BODY.zip)
 
-As mentioned in the paper, The problem of recognizing other robot bodies is a critical capability that has not garnered much attention in the Robotics community so far. Since there is no centeralized data set for Robot Bodies, we encourage you to add your Robot Body Image data-set link to this repository(just add your link to list below and create a pull request).
+As mentioned in the paper, The problem of recognizing other robot bodies is a critical capability that has not garnered much attention in the Robotics community so far. Since there is no centralized data set for Robot Bodies, we encourage you to add your Robot Body Image data-set link to this repository(just add your link to list below and create a pull request).
 
 Further Robot Body Datasets:
 
-* [SPQR Team NAO image dataset](http://www.dis.uniroma1.it/~labrococo/?q=node/459)
+* [SPQR Team NAO image data-set](http://www.dis.uniroma1.it/~labrococo/?q=node/459)
 
-Training Your Model
-----------
-
-blah
+A simple cropping tool is written in QT for creating this data-set, which made the work so fast. We recommend you using ImageCropper for this purpose. Instructions are available in section below.
 
 Using ImageCropper
 ----------
 
 blah
 
+Training Your Model
+----------
 
-Reference to This Paper
+blah
+
+
+#### Reference to This Paper
 ----------
 - Bibtex Here
 
-Lisence
+#### Lisence
 ----------
 Apache License, Version 2.0 (the "License");
 
