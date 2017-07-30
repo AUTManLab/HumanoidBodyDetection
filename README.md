@@ -65,13 +65,38 @@ A simple cropping tool is written in QT for creating this data-set, which made t
 Using ImageCropper
 ----------
 
-We prepared an image-cropper using OpenCV and Qt library to crop collected images to create our desired croped image for dataset. To use it, first change your directory to "/path/to/HumanoidBodyDetection/imageCropper". There is an executable file named "ImageCropper" in this directory. You should copy the "ImageCropper" along side folder named "images" which contains image's(positives and negatives) you want to crop. To use "ImageCropper" first run it with the command:
+We have prepared an ImageCropper using OpenCV and Qt library to crop collected images to create our desired data-set. To use it, first:
+
+```
+cd "/path/to/HumanoidBodyDetection/ImageCropper"
+```
+
+There is an executable file named *ImageCropper* in this directory. You should have the "ImageCropper" copied in a directory along side a folder named *"images"* which contains images you want to crop.
+
+Your structure should be something like this:<br/>
+\workspace<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\images<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ImageCropper<br/>
+
+If you are using a Unix-based OS, don't forget to make it executable
+```
+chmod +x ImageCropper
+```
+
+Then, you can run it using:
+
 ```
 ./ImageCropper
 ```
-Then you can see a gui pannel named "result". To crop an image, first do left mouse click on the most top left point of your desired boundary, and do it same for most down right point of desired boundary, with pressing 'c' arrowkey, desired boundary will be saved into "/path/to/HumanoidBodyDetection/imageCropper/croped" directory.
-Also you can exit from the ImageCropper with 'q' arrowkey. Don't worry, all the changes will be saved, and next time that you want to run the ImageCropper, it continues from the last croped image to the end of the "images" directory.
-The simple ImageCropper source code is available for editting and promotting, to get new executable file from the source code, you should run the command:
+Now you can see a GUI pannel named "result". To crop an image, first, do left mouse click on the most top left point of your desired boundary, and do the same for most bottom right point of desired boundary.<br/>
+Then pressing *'c'* will save a cropped image to *"/path/to/HumanoidBodyDetection/imageCropper/cropped"* directory.
+Also, you can exit from the ImageCropper pressing *'q'*.
+
+Feel free to stop anytime, all the changes will be saved and the next time that you wanted to run the ImageCropper, it continues from the last cropped image to the end of the *"images"* directory.
+
+For a quick review, you will need 
+
+The simple ImageCropper source code is available for editing and promoting, to get a new executable file from the source code, you should run the command:
 ```
 cd /path/to/HumanoidBodyDetection/imageCropper
 qmake ImageCropper.pro
