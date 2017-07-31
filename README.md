@@ -103,14 +103,14 @@ qmake ImageCropper.pro
 Training Your Model
 ----------
 
-blah
+will be added soon!
 
 
 #### Reference to This Paper
 ----------
-- Bibtex Here
+- Bibtex will be added here
 
 #### Lisence
 ----------
-Apache License, Version 2.0 (the "License");
+Apache License, Version 2.0
 
