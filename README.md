@@ -6,8 +6,9 @@ This repository contains:
  * ImageCropper for Creating Similar Data-Set
  * Python Scripts for Training Deep Networks Using Caffe
 
-"Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"<br/>
-[Mohammad Javadi](https://github.com/mohammadjv6), [Sina Mokhtarzadeh](https://github.com/sinaazar), [Sajad Azami](https://sajadazami.github.io),<br /> Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
+This is the code for the paper:
+**["Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"](https://pdfwww.gakkai-web.net/gakkai/inter/robocup2017symposium/contents/html/papers/pdf/RoboCup_Symposium_2017_paper_41.pdf)**<br/>
+[Mohammad Javadi](https://github.com/mohammadjv6)\*, [Sina Mokhtarzadeh](https://github.com/sinaazar)\*, [Sajad Azami](https://sajadazami.github.io)\*,<br /> Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes
 
 Submitted to [RoboCup 2017 Symposium, Nagoya, Japan](https://www.robocup2017.org/eng/symposium.html)
 
