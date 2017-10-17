@@ -8,7 +8,7 @@ This repository contains:
 
 This is the code for the paper:
 
-**["Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"](https://pdfwww.gakkai-web.net/gakkai/inter/robocup2017symposium/contents/html/papers/pdf/RoboCup_Symposium_2017_paper_41.pdf)**<br/>
+**["Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Trade-off"](https://www.robocup2017.org/file/symposium/RoboCup_Symposium_2017_paper_41.pdf)**<br/>
 [Mohammad Javadi](https://github.com/mohammadjv6)\*, [Sina Mokhtarzadeh](https://github.com/sinaazar)\*, [Sajad Azami](https://sajadazami.github.io)\*,<br /> Saeed Shiry Ghidary, Soroush Sadeghnejad, and Jacky Baltes<br />
 (* equal contribution)<br />
 *Submitted to [RoboCup 2017 Symposium, Nagoya, Japan](https://www.robocup2017.org/eng/symposium.html)*
