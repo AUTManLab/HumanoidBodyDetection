@@ -110,8 +110,10 @@ will be added soon!
 
 #### Reference to This Paper
 ----------
-- Bibtex will be added here
-
+@article{javadihumanoid,
+  title={Humanoid Robot Detection using Deep Learning: A Speed-Accuracy Tradeoff},
+  author={Javadi, Mohammad and Azar, Sina Mokhtarzadeh and Azami, Sajjad and Shiry, Saeed and Ghidary, Soroush Sadeghnejad and Baltes, Jacky}
+}
 #### Lisence
 ----------
 Apache License, Version 2.0
